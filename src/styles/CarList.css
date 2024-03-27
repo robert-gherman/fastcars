@@ -1,0 +1,158 @@
+.Carlist-container {
+  padding-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: white;
+  width: 900px;
+}
+.Carlist-container ul {
+  background-color: white;
+}
+.search-bar {
+  margin-bottom: 20px;
+  display: block;
+  max-width: 350px;
+  padding: 12px 20px;
+  height: 56px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.car-container {
+  display: grid;
+
+  gap: 40px;
+}
+
+.car-container li {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  cursor: pointer;
+  box-shadow: 10px 10px 20px orange;
+  display: flex;
+  background-color: white;
+}
+
+.car-container li:hover {
+  transition: 0.5s ease-in-out all;
+  scale: 1.1;
+}
+
+.car-right {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+  padding-left: 10px;
+  justify-content: space-between;
+}
+
+.car-button-desc {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 10px 15px;
+  font-weight: bold;
+  width: 120px;
+  height: 62px;
+  margin-bottom: 10px;
+}
+
+.car-button-desc:hover {
+  background-color: rgb(230, 226, 245);
+  cursor: pointer;
+}
+
+.carDescription-home-container {
+  display: flex;
+  font-size: 8px;
+  margin: 10px 0 50px 5px;
+  justify-content: space-between;
+}
+.firstPartdescription {
+  text-align: left;
+  margin-right: 5px;
+}
+.secondPartdescription {
+  text-align: left;
+  padding-right: 51px;
+}
+.seeMoreDesc-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  margin-left: 10px;
+}
+.car-item-container {
+  display: flex;
+  background-color: pink;
+}
+.desc-location-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.desc-location-label {
+  color: #0689f4;
+}
+.desc-location-label:hover {
+  text-decoration: underline;
+}
+.start {
+  width: 150px;
+}
+.end {
+  width: 150px;
+}
+
+.button-6 {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #f0f0f1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}

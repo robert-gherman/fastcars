@@ -1,0 +1,91 @@
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  margin: 50px;
+}
+
+.about-us-title {
+  font-size: 3em;
+  font-weight: bold;
+  color: #333;
+  color: #ab6c1f;
+}
+
+.about-us-description {
+  margin: 20px 0;
+  font-size: 1.2em;
+  line-height: 1.5;
+  width: 75%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.about-us-team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+.team-title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.team-member-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.team-member-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.team-member-position {
+  font-size: 1.2em;
+  font-style: italic;
+  color: #888;
+}
+.checklist {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ul-about {
+  flex-direction: column;
+  background-color: white;
+  text-align: left;
+}
+.ul-about li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.call-us-button {
+  border: 2px solid #f7a139;
+  border-radius: 4px;
+  color: black;
+  background-color: white;
+  padding: 10px 20px;
+  margin-bottom: 50px;
+  width: 175px;
+}
+.call-us-button:hover {
+  background-color: #f19a30;
+}

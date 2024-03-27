@@ -1,0 +1,13 @@
+.user-button {
+  font-size: 20px;
+  color: white;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: color 0.2s;
+  background-color: transparent !important;
+}
+
+.user-button:hover {
+  color: rgb(159, 111, 14);
+}

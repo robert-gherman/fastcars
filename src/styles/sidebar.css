@@ -1,0 +1,84 @@
+.sidebar {
+  position: relative;
+  min-height: 56px;
+  z-index: 5;
+}
+
+.burger-button {
+  background-color: transparent;
+  border: none;
+  transition: 0.2s ease-in-out all;
+  cursor: pointer;
+  color: #f7a139;
+  top: 16px;
+  left: 16px;
+  position: fixed;
+  z-index: 1;
+}
+
+.open {
+  background-color: #f7a139;
+  border-radius: 50%;
+  color: white;
+  left: 216px;
+}
+
+.open:hover {
+  background-color: #5b3a13;
+  scale: 1.1;
+}
+
+.sidebar {
+  position: fixed;
+  transition: 0.2s all ease-in-out;
+  top: 0;
+  height: 100vh;
+  background-color: #1c1c1c;
+  width: 0;
+}
+
+.openSidebar {
+  width: 300px;
+}
+
+.sidebar-container {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.zoo-link {
+  display: flex;
+  gap: 24px;
+  color: white;
+  justify-content: flex-start;
+  cursor: pointer;
+  margin: 12px 16px;
+  padding: 8px;
+  border-radius: 6px;
+  transition: 0.3s all ease-in;
+  text-decoration: none;
+  align-items: center;
+}
+
+.zoo-link:hover {
+  background-color: #5b3a13;
+}
+
+.signout-btn {
+  background-color: #f7a139;
+  border-radius: 9px;
+  width: 100px;
+  height: 50px;
+  color: white;
+}
+.signout-btn:hover {
+  background-color: #3c2f1f;
+  border-color: #3c2f1f;
+  cursor: pointer;
+}

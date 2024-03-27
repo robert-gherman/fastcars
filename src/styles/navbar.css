@@ -1,0 +1,83 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  text-align: center;
+  background-color: #1c1c1c;
+  justify-content: center;
+}
+.telephone-content {
+  display: flex;
+  align-items: center;
+}
+.telephone-innerContent {
+  margin: 0 18px 0 18px;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  color: #f7a139;
+  text-decoration: none;
+}
+.username-wrap {
+  right: 0;
+  position: absolute;
+}
+.content {
+  display: flex;
+  align-items: center;
+  background-color: #1c1c1c;
+  height: 80px;
+  justify-content: center;
+}
+.content button {
+  height: 46px;
+  background-color: #f7a139;
+  border-radius: 9px;
+  min-width: 62px;
+  margin-right: 12px;
+  color: white;
+}
+.email-content {
+  display: flex;
+  align-items: center;
+}
+
+.email-innerContent {
+  margin-right: 18px;
+}
+.singup {
+  margin-right: 22px;
+}
+.content button:hover {
+  background-color: #3c2f1f;
+  border-color: #3c2f1f;
+  cursor: pointer;
+}
+.second-navbar {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-grow: 3;
+  align-items: center;
+}
+.second-navbar li a {
+  color: #6c6c6c;
+  margin: 0 36px;
+}
+.icon-links {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f7;
+  position: absolute;
+  top: 50%;
+  right: 22px;
+  transform: translateY(-50%);
+}
+.secondNav-container {
+  position: relative;
+  display: flex;
+  height: 60px;
+}
